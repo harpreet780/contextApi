@@ -2,6 +2,21 @@
   width: 22%;
   border: 1px  solid #b3b3b3;
   border-radius: 8px;
-  padding: 10px;
+  padding: 10px 20px;
   margin: 5px;
+  cursor: pointer;
+}
+.btn {
+  border: none;
+  outline: none;
+  background-color: aquamarine;
+  outline: none;
+  border-radius: 8px;
+}
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.active-card {
+  border: 2px solid aquamarine;
 }
