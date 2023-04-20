@@ -8,7 +8,7 @@ const Home = () => {
     const [carlist, setCarlist] = useState();
 
     const CarView = async () => {
-        return await axios.get('https://myfakeapi.com/api/cars').then((res) => {
+        return await axios.get('https://myfakeapi.com/api/cars?limit=5').then((res) => {
             setCarlist(res.data.cars)
         }).catch((error) => {
             console.log(error)
